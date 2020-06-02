@@ -8689,7 +8689,7 @@ $IF 32BIT THEN
         END IF
     END FUNCTION
 $ELSE
-    SUB __OpenFile 'C:\Users\zacharys\OneDrive - pscindustries\Desktop\QB64 Files\qb32\OpenFile.ps1
+    SUB __OpenFile
     IF _FILEEXISTS("OpenFile.ps1") = 0 THEN 'remove this line if you are compiling in FreeBasic
     DIM A$
     A$ = ""
